@@ -1,27 +1,17 @@
 <template>
   <v-app>
-    <div id="nav">
-      <router-link to="/">
-        Home
-      </router-link> |
-      <router-link to="/about">
-        About
-      </router-link> |
-      <router-link to="/appBar">
-        AppBar
-      </router-link>
-    </div>
-    <router-view />
+    <Navbar />
+    <router-view name="app" />
   </v-app>
 </template>
 
 <script>
+import Navbar from "@/components/Navbar.vue";
 
 export default {
-  name: 'App',
-
-  data: () => ({
-    //
-  }),
+  name: "App",
+  components: {
+    Navbar,
+  },
 };
 </script>
