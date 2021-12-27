@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="normalLoginDiv">
     <v-container class="fill-height" fluid>
       <v-row align="center" justify="center" dense>
         <v-col cols="12" sm="8" md="4" lg="4">
@@ -107,4 +107,7 @@ export default {
 </script>
 
 <style>
+#normalLoginDiv * {
+  font-size: 20px;
+}
 </style>

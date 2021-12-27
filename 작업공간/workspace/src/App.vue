@@ -1,7 +1,9 @@
 <template>
   <v-app>
     <Navbar />
-    <router-view name="app" />
+    <div id="view">
+      <router-view name="app" />
+    </div>
   </v-app>
 </template>
 
@@ -15,3 +17,14 @@ export default {
   },
 };
 </script>
+
+<style>
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
+* {
+  font-family: "Nanum Pen Script";
+  font-size: 40px;
+}
+#view {
+  padding: 50px;
+}
+</style>

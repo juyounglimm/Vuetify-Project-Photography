@@ -1,8 +1,8 @@
 <template>
-  <div>
-    <v-tabs v-model="tab" background-color="green" dark centered>
+  <div id="loginDiv">
+    <v-tabs v-model="tab" background-color="white" dark centered>
       <v-tabs-slider color="blue" />
-      <v-tab v-for="item in items" :key="item.tab">
+      <v-tab v-for="item in items" id="loginTab" :key="item.tab">
         {{ item.tab }}
       </v-tab>
     </v-tabs>
@@ -30,12 +30,16 @@ export default {
   data: () => ({
     tab: null,
     items: [
-      { tab: "NormalLogin", content: "NormalLogin" },
-      { tab: "CompanyLogin", content: "CompanyLogin" },
+      { tab: "개인 로그인", content: "NormalLogin" },
+      { tab: "기업 로그인", content: "CompanyLogin" },
     ],
   }),
 };
 </script>
 
 <style>
+#loginTab {
+  font-size: 35px;
+  color: black;
+}
 </style>
