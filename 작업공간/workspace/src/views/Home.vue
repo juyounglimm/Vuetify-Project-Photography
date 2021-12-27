@@ -1,7 +1,6 @@
 <template>
-  <div>
-    <h2>최근 등록 후기</h2>
-    <br />
+  <v-container fluid>
+    <h2>최근 후기</h2>
     <v-row>
       <v-col cols="12" md="4">
         <v-skeleton-loader
@@ -33,8 +32,7 @@
         />
       </v-col>
     </v-row>
-    <h2>최근 등록 카페</h2>
-    <br />
+    <h2>최근 카페</h2>
     <v-row>
       <v-col cols="12" md="4">
         <v-skeleton-loader
@@ -66,7 +64,7 @@
         />
       </v-col>
     </v-row>
-  </div>
+  </v-container>
 </template>
 
 <script>
@@ -80,6 +78,5 @@ export default {
   }),
 };
 </script>
-
-<style scoped>
+<style>
 </style>
