@@ -2,17 +2,29 @@
   <v-container fluid>
     <h2>최근 후기</h2>
     <v-row>
-      <v-col cols="12" md="4">
+      <v-col
+        cols="12"
+        md="4"
+      >
         <v-skeleton-loader
           v-bind="attrs"
           type="card-avatar, article, actions"
         />
 
-        <v-skeleton-loader v-bind="attrs" type="date-picker" />
+        <v-skeleton-loader
+          v-bind="attrs"
+          type="date-picker"
+        />
       </v-col>
 
-      <v-col cols="12" md="4">
-        <v-skeleton-loader v-bind="attrs" type="article, actions" />
+      <v-col
+        cols="12"
+        md="4"
+      >
+        <v-skeleton-loader
+          v-bind="attrs"
+          type="article, actions"
+        />
 
         <v-skeleton-loader
           v-bind="attrs"
@@ -20,7 +32,10 @@
         />
       </v-col>
 
-      <v-col cols="12" md="4">
+      <v-col
+        cols="12"
+        md="4"
+      >
         <v-skeleton-loader
           v-bind="attrs"
           type="list-item-avatar, divider, list-item-three-line, card-heading, image, actions"
@@ -34,17 +49,29 @@
     </v-row>
     <h2>최근 카페</h2>
     <v-row>
-      <v-col cols="12" md="4">
+      <v-col
+        cols="12"
+        md="4"
+      >
         <v-skeleton-loader
           v-bind="attrs"
           type="card-avatar, article, actions"
         />
 
-        <v-skeleton-loader v-bind="attrs" type="date-picker" />
+        <v-skeleton-loader
+          v-bind="attrs"
+          type="date-picker"
+        />
       </v-col>
 
-      <v-col cols="12" md="4">
-        <v-skeleton-loader v-bind="attrs" type="article, actions" />
+      <v-col
+        cols="12"
+        md="4"
+      >
+        <v-skeleton-loader
+          v-bind="attrs"
+          type="article, actions"
+        />
 
         <v-skeleton-loader
           v-bind="attrs"
@@ -52,7 +79,10 @@
         />
       </v-col>
 
-      <v-col cols="12" md="4">
+      <v-col
+        cols="12"
+        md="4"
+      >
         <v-skeleton-loader
           v-bind="attrs"
           type="list-item-avatar, divider, list-item-three-line, card-heading, image, actions"

@@ -2,11 +2,22 @@
   <v-app>
     <v-main>
       <v-container>
-        <v-row align="center" justify="center" dense>
-          <v-col cols="12" sm="8" md="4" lg="4">
+        <v-row
+          align="center"
+          justify="center"
+          dense
+        >
+          <v-col
+            cols="12"
+            sm="8"
+            md="4"
+            lg="4"
+          >
             <v-card elevation="0">
               <div class="text-center">
-                <h1 class="mb-2">Forgot Password</h1>
+                <h1 class="mb-2">
+                  Forgot Password
+                </h1>
                 <p>
                   We wil send a password reset link to the email address of the
                   connected accounted

@@ -1,8 +1,21 @@
 <template>
   <div>
-    <v-container id="companyLoginDiv" class="fill-height" fluid>
-      <v-row align="center" justify="center" dense>
-        <v-col cols="12" sm="8" md="4" lg="4">
+    <v-container
+      id="companyLoginDiv"
+      class="fill-height"
+      fluid
+    >
+      <v-row
+        align="center"
+        justify="center"
+        dense
+      >
+        <v-col
+          cols="12"
+          sm="8"
+          md="4"
+          lg="4"
+        >
           <v-card elevation="0">
             <v-img
               src="@/assets/logo.png"
@@ -43,21 +56,36 @@
                   Login
                 </v-btn>
                 <v-card-actions class="text--secondary">
-                  <v-checkbox color="#000000" label="Remember me" />
+                  <v-checkbox
+                    color="#000000"
+                    label="Remember me"
+                  />
                   <v-spacer />
                   <router-link :to="{ name: 'ForgotPassword' }">
-                    Forgot? </router-link
-                  >|
-                  <a href="#" class="p1-2" style="color: #000000"> Sign Up</a>
+                    Forgot?
+                  </router-link>|
+                  <a
+                    href="#"
+                    class="p1-2"
+                    style="color: #000000"
+                  > Sign Up</a>
                 </v-card-actions>
               </v-form>
             </v-card-text>
             <v-card-actions class="ml-6 mr-6 text-center">
               <p>
                 By continuing, you agree to Fedorae'Education
-                <a href="#" class="pl-2" style="color: #000000"> Policy </a>
+                <a
+                  href="#"
+                  class="pl-2"
+                  style="color: #000000"
+                > Policy </a>
                 and
-                <a href="#" class="pl-2" style="color: #000000">
+                <a
+                  href="#"
+                  class="pl-2"
+                  style="color: #000000"
+                >
                   Terms of Use
                 </a>
               </p>

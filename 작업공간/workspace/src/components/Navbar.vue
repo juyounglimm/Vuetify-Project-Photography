@@ -1,18 +1,40 @@
 <template>
   <v-container id="vcon">
-    <v-app-bar id="nav" color="dark accent-4" dense dark>
-      <v-toolbar-title id="navTitle"> Cafe Intro Site </v-toolbar-title>
+    <v-app-bar
+      id="nav"
+      color="dark accent-4"
+      dense
+      dark
+    >
+      <v-toolbar-title id="navTitle">
+        Cafe Intro Site
+      </v-toolbar-title>
       <v-spacer />
       <v-btn>
-        <router-link :to="{ name: 'Home' }"> Home </router-link>
+        <router-link :to="{ name: 'Home' }">
+          Home
+        </router-link>
       </v-btn>
-      <router-link :to="{ name: 'Login' }"> Login </router-link>
+      <router-link :to="{ name: 'Login' }">
+        Login
+      </router-link>
       <v-btn>
-        <router-link :to="{ name: 'Register' }"> Register </router-link>
+        <router-link :to="{ name: 'Register' }">
+          Register
+        </router-link>
       </v-btn>
     </v-app-bar>
-    <v-tabs id="menu" background-color="white" dark right>
-      <v-tab v-for="item in items" id="tab" :key="item.name">
+    <v-tabs
+      id="menu"
+      background-color="white"
+      dark
+      right
+    >
+      <v-tab
+        v-for="item in items"
+        id="tab"
+        :key="item.name"
+      >
         <router-link :to="{ name: item.name }">
           {{ item.tab }}
         </router-link>

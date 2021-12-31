@@ -8,6 +8,6 @@ module.exports = {
   rules:{
     'vuetify/no-deprecated-classes':'error',
     'vuetify/no-legacy-grid':'error',
-    'indent':["error",2]
+    'indent':'["error",2]'
   }
 }

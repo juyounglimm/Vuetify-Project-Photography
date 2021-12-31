@@ -1,9 +1,21 @@
 <template>
   <v-app>
     <v-main>
-      <v-container class="fill-height" fluid>
-        <v-row align="center" justify="center" dense>
-          <v-col cols="12" sm="8" md="4" lg="4">
+      <v-container
+        class="fill-height"
+        fluid
+      >
+        <v-row
+          align="center"
+          justify="center"
+          dense
+        >
+          <v-col
+            cols="12"
+            sm="8"
+            md="4"
+            lg="4"
+          >
             <v-card elevation="0">
               <v-img
                 src="@/assets/logo.png"
@@ -70,7 +82,11 @@
                     <v-spacer />
                     <!-- <router-link :to="{ name: 'SignUp' }">Sign Up</router-Link>-->
                     Already have an account? |
-                    <a href="#" class="p1-2" style="color: #000000"> Sign In</a>
+                    <a
+                      href="#"
+                      class="p1-2"
+                      style="color: #000000"
+                    > Sign In</a>
                   </v-card-actions>
                 </v-form>
               </v-card-text>

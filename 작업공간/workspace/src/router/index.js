@@ -11,6 +11,7 @@ import Apply from '../views/Apply.vue'
 import Intro from '../views/Intro.vue'
 import Community from '../views/Community.vue'
 import Customer from '../views/Customer.vue'
+import Detail from '../views/Intro/Detail.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -90,6 +91,17 @@ const routes = [
     components: {
       navbar: Customer
     },
+
+  },
+
+  {
+    path: '/intro/:id',
+    name: 'Detail',
+    components: {
+      app:Detail
+
+    },
+
   },
 
 ]
